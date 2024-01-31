@@ -1,0 +1,75 @@
+body{line-height:30px; background-color:cornsilk;}
+
+div{border:2px solid black; 
+width:550px;
+margin:10px;
+padding:10px;}
+
+h1 {
+    background-color: blue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: white;
+    padding: 2px;
+    border: 5px solid black;
+    outline-style: solid;
+    outline-color: grey;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px black;}
+
+    h2 {
+        background-color: skyblue;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 15px;
+        color: black;
+        padding: 10px;
+        border: 2px solid black;
+        border-width: auto;
+        text-align: center;
+        margin: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 500px;
+      }
+
+      img {
+        position: absolute;
+        bottom: 400px;
+        left: 1250px;
+        max-width: 300px;
+        border: 50%;
+        outline-style: solid;
+        outline-color: blue;
+        margin-top: 10px;
+        float: right;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;}
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;}
+        
+    input[type="file"] {
+        cursor: pointer;}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: grey;
+        }
+        tr:hover {background-color: coral;}
